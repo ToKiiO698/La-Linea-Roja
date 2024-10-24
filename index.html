@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="body-group">
+        <h1 class="body-login-title">Login</h1>
+
+        <form class="body-form" id="login-form" method="POST">
+            <label class="body-label" for="username">Identifiant:</label>
+            <input class="body-input" type="text" id="username" name="username" required><br>
+            <label class="body-label" for="password">Mot de passe:</label>
+            <input class="body-input" type="password" id="password" name="password" required><br>
+            <button class="body-btn" type="submit">Se connecter</button>
+        </form>
+
+        <div class="body-message" id="login-message"></div>
+
+        <script src="js/login.js"></script>
+    </div>
+    
+</body>
+</html>

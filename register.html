@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ajouter</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <div class="body-group">
+            <h1>Ajouter</h1>
+
+            <div id="register-message"></div> <br>
+
+            <div class="red-line"></div> <br>
+
+            <form id="register-form">
+                <label for="username">Identifiant:</label>
+                <input type="text" id="username" name="username" required><br>
+                
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password" name="password" required><br>
+                
+                <label for="role">Rôle:</label>
+                <select id="role" name="role" required>
+                    <option value="user">Utilisateur</option>
+                    <option value="admin">Administrateur</option>
+                </select><br>
+
+                <button type="submit">Enrengistrer</button>
+            </form>
+            
+            <script src="js/register.js"></script>
+        </div>
+    </body>
+</html>

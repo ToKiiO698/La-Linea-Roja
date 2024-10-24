@@ -1,0 +1,15 @@
+# Projet de Gestion de Tâche
+
+## Description
+Ce projet est une application de gestion de tâches qui permet aux utilisateurs de créer, lire, mettre à jour et supprimer des tâches. L'application est conçue pour aider les utilisateurs à organiser et suivre leurs tâches quotidiennes de manière efficace.
+
+## Fonctionnalités
+- **Créer une tâche** : Les utilisateurs peuvent ajouter de nouvelles tâches avec des titres et des descriptions.
+- **Lire les tâches** : Les utilisateurs peuvent voir la liste de toutes les tâches existantes.
+- **Mettre à jour une tâche** : Les utilisateurs peuvent modifier les détails des tâches existantes.
+- **Supprimer une tâche** : Les utilisateurs peuvent supprimer des tâches qu'ils n'ont plus besoin de suivre.
+
+## Technologies Utilisées
+- **Backend** : Node.js, Express
+- **Base de données** : MariaDB
+- **Frontend** : 
